@@ -14,6 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+If there is an error saying 'something is already running on port 3000'.\
+then force the frontend client to run on http://localhost:3001
+using the command:
+
+### `npx cross-env PORT=3001 npm start`
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
